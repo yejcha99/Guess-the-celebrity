@@ -1,0 +1,100 @@
+.container{
+    width: 30%;
+    display: block;
+    margin: auto;
+    background-color: #f8ed85;
+    border-radius: 6px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: "Luminari";
+    margin-top: 12%;
+    padding-top: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color:black;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .inputBox input{
+    display: block;
+    font: inherit;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0.25rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .question {
+    display: block;
+    margin: auto;
+  }
+
+  .question-number {
+    margin-bottom: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .enterButton {
+    font: inherit;
+    cursor: pointer;
+    background-color: #368980;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #368980;
+    border-radius: 4px;
+    font-weight: bold;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .enterButton:hover,
+  .enterButton:active {
+    background-color: #74BDCB;
+    border-color: #74BDCB;
+  }
+  
+  h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  /* ANSWERS/RIGHT SECTION */
+.answer {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
+
+.answerButton {
+  width: 100%;
+  font-size: 12px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  display:block;
+  padding: 0.5rem 1.5rem;
+  align-items: center;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  position:relative;
+}
+
+.answerButton:hover {
+  background-color: lightsalmon;
+}
+
+table {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-spacing: 10px;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
